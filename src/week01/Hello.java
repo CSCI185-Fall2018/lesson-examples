@@ -12,9 +12,8 @@ class Hello
     {
         if (args.length < 2)
         {
-            System.err.println("needs two arguements");
+            System.err.println("needs two arguments");
             return;
-            //System.exit(1);
         }
 
         String message = args[0];
