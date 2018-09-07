@@ -1,3 +1,5 @@
+package week01;
+
 class Hello
 {
     static void hello(String message, int count)

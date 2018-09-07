@@ -1,3 +1,5 @@
+package week01;
+
 class Person extends Object
 {
     // this class is immutable

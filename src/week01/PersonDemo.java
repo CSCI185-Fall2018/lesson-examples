@@ -1,3 +1,5 @@
+package week01;
+
 class PersonDemo
 {
     public static void main(String[] args)

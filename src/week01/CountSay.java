@@ -13,6 +13,8 @@
  *
  */
 
+package week01;
+
 class CountSay
 {
     static String countSay(String input)
