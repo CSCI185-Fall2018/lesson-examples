@@ -6,13 +6,13 @@ package week01;
  * each repeating character and then the character itself. The following list shows the first 7 terms of the count say
  * sequence:
  *
- * 1 1
- * 2 11
- * 3 21
- * 4 1211
- * 5 111221
- * 6 312211
- * 7 13112221
+ * 1: 1
+ * 2: 11
+ * 3: 21
+ * 4: 1211
+ * 5: 111221
+ * 6: 312211
+ * 7: 13112221
  *
  */
 class CountSay
@@ -54,6 +54,5 @@ class CountSay
 
         // print output
         System.out.println(result);
-
     }
 }
