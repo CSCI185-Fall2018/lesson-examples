@@ -93,7 +93,7 @@ class Recursion
         // time analysis: O(N)
         // space analysis: O(1)
 
-        if (idx > arr.length)
+        if (idx >= arr.length)
             return -1;
         if (arr[idx] == key)
             return idx;
@@ -103,7 +103,7 @@ class Recursion
     static void test_rec_find()
     {
         int[] arr = {9, 2, 5, 5, 2, 7, 4};
-        System.out.print(iter_find(arr, 5));
+        System.out.print(rec_find(arr, 3));
 
         /**
          * F(0) = 2
@@ -148,7 +148,8 @@ class Recursion
 
     public static void main(String[] args)
     {
-        test_binary_search_find();
+        // test_binary_search_find();
+        test_rec_find();
     }
 
 }
